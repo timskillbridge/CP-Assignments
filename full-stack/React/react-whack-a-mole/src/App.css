@@ -1,0 +1,32 @@
+
+*{
+  box-sizing: border-box;
+}
+#mole_field {
+  width: 60vmin;
+  height: 60vmin;
+  border: brown 1px dashed;
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+#mole_field:hover{
+  cursor:crosshair;
+
+}
+
+.hole_or_mole{
+
+  border:1px black solid;
+  height: calc(100%/3);
+  width: calc(100%/3);
+  align-content: center;
+  justify-content: space-around;
+  text-align: center;
+  background-color: tan;
+}
+
+.scoreBox{
+  width:60vmin;
+  text-align: center;
+}

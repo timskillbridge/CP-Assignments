@@ -1,0 +1,108 @@
+
+.box {
+  display:inline-block;
+  border: 2px solid black;
+  margin:10px;
+  height: 100px;
+  width: 100px;
+  font-size:18px;
+  padding: 5px;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  font-size: 0;
+
+}
+
+.float-box {
+  float: left
+}
+
+.text {
+  clear:left
+}
+.new_container {
+
+  height: 300px;
+  width:150px;
+  overflow: hidden;
+  border: solid 1px black;
+}
+
+.new_box{
+  display: inline-block;
+  height: 8%;
+  width:175px;
+  border:dashed 1px blue;
+}
+
+.box:hover {
+  background-color: lightblue;
+}
+
+.absol {
+  position:relative;
+  border: 1px blue solid;
+  height: 500px;
+  width:500px;
+  background-color: lightcoral;
+}
+
+.relat {
+
+  position:absolute;
+  left: 85px;
+  top: 3em;
+  border: 1px black dashed;
+  height:150px;
+  width:150px;
+  z-index: 4;
+  background-color: blueviolet;
+}
+.relat:hover{
+  height:11px;
+  width:11px;
+  background-color: aliceblue;
+  position:relative;
+  top:100px;
+  left:300px;
+  z-index: 5;
+}
+
+.zindex {
+  position: absolute;
+  z-index: 3;
+  background: gold;
+  width: 80%;
+  left: 60px;
+  top: 5em;
+  height:150px;
+  width:150px;
+}
+.zindex:active{
+  background-color: white;
+}
+
+.blat {
+  position:absolute;
+  z-index: 2;
+  left: 120px;
+  top: 1em;
+  background-color: black;
+  border: 5px solid green;
+  height:150px;
+  width:150px;
+}
+.blat:hover{
+  height: 50px;
+  width:50px;
+  background-color: teal;
+  border:1px dashed aqua;
+  padding:12px;
+  margin:15px;
+}

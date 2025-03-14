@@ -1,0 +1,13 @@
+
+.guessedBox {
+    font-size: 14pt;
+    font-weight: 400;
+    max-width: 50%;
+    min-height: 50px;
+    border:solid black 2px;
+    text-align: center;
+}
+
+.guessBox {
+    width: 20px;
+}
