@@ -1,0 +1,39 @@
+#header {
+  display:flex;
+  flex-flow:column wrap;
+  justify-content: center;
+}
+
+.titleClass {
+  align-self: center;
+}
+
+#team {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+}
+.Team_label {
+  justify-self: center;
+  align-self: center;
+
+  }
+
+
+.teamMember {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100px;
+  width: 225px;
+  border:1px black solid;
+
+}
+
+.leader, .follower {
+  justify-content: flex-start ;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  padding:0;
+  margin:0
+}
